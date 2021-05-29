@@ -179,12 +179,6 @@ namespace CoolGame
                 verSpeed = -verSpeed;
             }
             moveUpSpikes.BringToFront();
-
-            enemyOne.Left += enemySpeed;
-            if (enemyOne.Left < 1300 || enemyOne.Left > 800)
-            {
-                enemySpeed = -enemySpeed;
-            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
