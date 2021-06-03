@@ -207,7 +207,7 @@ namespace CoolGame
             // 
             this.moveUpSpikes.BackColor = System.Drawing.Color.Transparent;
             this.moveUpSpikes.Image = global::CoolGame.Properties.Resources.spikesHor;
-            this.moveUpSpikes.Location = new System.Drawing.Point(1724, 1065);
+            this.moveUpSpikes.Location = new System.Drawing.Point(1740, 1011);
             this.moveUpSpikes.Name = "moveUpSpikes";
             this.moveUpSpikes.Size = new System.Drawing.Size(141, 35);
             this.moveUpSpikes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -804,7 +804,6 @@ namespace CoolGame
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1940, 1100);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox44);
             this.Controls.Add(this.pictureBox43);
@@ -857,12 +856,12 @@ namespace CoolGame
             this.Controls.Add(this.horMoveSpikes);
             this.Controls.Add(this.pictureBox38);
             this.Controls.Add(this.pictureBox39);
+            this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Tag = "";
             this.Text = "Form1";
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.exitImage)).EndInit();

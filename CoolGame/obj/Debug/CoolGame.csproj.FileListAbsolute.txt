@@ -31,3 +31,10 @@ C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.csproj.Genera
 C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.exe
 C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.pdb
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\bin\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.csproj.ResolveComReference.cache
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.PassLvl.resources
+C:\Users\Admin\Desktop\CoolGame-master\CoolGame\obj\Debug\CoolGame.Instructions.resources
