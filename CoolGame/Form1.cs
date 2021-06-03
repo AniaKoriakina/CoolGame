@@ -19,11 +19,7 @@ namespace CoolGame
         int jumpForce = 20;
         int horSpeed = 40;
         int verSpeed = 4;
-        int enemySpeed = 5;
         int playerSpeed = 25;
-        Image platfom = Properties.Resources.platform;
-        Image spikes = Properties.Resources.spike;
-        int viewX = 0;
         int score = 30;
 
         public Form1()
@@ -51,33 +47,5 @@ namespace CoolGame
         {
             exitImage.Image = Properties.Resources.exitImage;
         }
-
-        //private int Clamp(int value, int min,int max)
-        //{
-        //    if (value > max)
-        //        return max;
-        //    return value < min ? min : value;
-        //}
-
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            horMoveSpikes.Left -= horSpeed;
-            if (horMoveSpikes.Left < 247 || horMoveSpikes.Left + horMoveSpikes.Width > this.ClientSize.Width)
-            {
-                horSpeed = -horSpeed;
-            }
-            horMoveSpikes.BringToFront();
-
-            moveUpSpikes.Top += verSpeed;
-            if (moveUpSpikes.Top < 610 || moveUpSpikes.Top > 1030)
-            {
-                verSpeed = -verSpeed;
-            }
-            moveUpSpikes.BringToFront();
-        }
-
-        
-
     }
 }
