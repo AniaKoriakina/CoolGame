@@ -86,6 +86,7 @@ namespace CoolGame
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.tv = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.exitImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -137,6 +138,7 @@ namespace CoolGame
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tv)).BeginInit();
             this.SuspendLayout();
             // 
             // mainTimer
@@ -667,7 +669,7 @@ namespace CoolGame
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox35.Image = global::CoolGame.Properties.Resources.runebag1;
-            this.pictureBox35.Location = new System.Drawing.Point(130, 594);
+            this.pictureBox35.Location = new System.Drawing.Point(174, 594);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(27, 37);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -795,6 +797,17 @@ namespace CoolGame
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Tag = "runeBag";
             // 
+            // tv
+            // 
+            this.tv.BackColor = System.Drawing.Color.Transparent;
+            this.tv.Image = global::CoolGame.Properties.Resources.TV;
+            this.tv.Location = new System.Drawing.Point(55, 570);
+            this.tv.Name = "tv";
+            this.tv.Size = new System.Drawing.Size(113, 67);
+            this.tv.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.tv.TabIndex = 54;
+            this.tv.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -803,6 +816,7 @@ namespace CoolGame
             this.BackgroundImage = global::CoolGame.Properties.Resources.GORODd;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1940, 1100);
+            this.Controls.Add(this.tv);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox44);
@@ -915,6 +929,7 @@ namespace CoolGame
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -978,6 +993,7 @@ namespace CoolGame
         private System.Windows.Forms.PictureBox pictureBox43;
         private System.Windows.Forms.PictureBox pictureBox44;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox tv;
     }
 }
 

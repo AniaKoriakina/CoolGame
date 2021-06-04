@@ -12,15 +12,17 @@ namespace CoolGame
 {
     public partial class PassLvl : Form
     {
-        public PassLvl()
+        private Form1 form2;
+        public PassLvl(Form1 form2)
         {
             InitializeComponent();
-
+            this.form2 = form2;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Close();
+            form2.Close();
         }
     }
 }

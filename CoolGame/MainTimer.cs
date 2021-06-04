@@ -79,7 +79,7 @@ namespace CoolGame
                 mainTimer.Stop();
                 gameover = true;
                 player.Visible = false;
-                PassLvl passLvl = new PassLvl();
+                PassLvl passLvl = new PassLvl(this);
                 passLvl.Show();
             }
 
