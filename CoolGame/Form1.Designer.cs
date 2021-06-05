@@ -255,7 +255,7 @@ namespace CoolGame
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::CoolGame.Properties.Resources.spikesVer;
-            this.pictureBox7.Location = new System.Drawing.Point(1582, 396);
+            this.pictureBox7.Location = new System.Drawing.Point(1582, 420);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(94, 378);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
